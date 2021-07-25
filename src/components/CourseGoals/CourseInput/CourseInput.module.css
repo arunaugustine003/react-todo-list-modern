@@ -1,0 +1,47 @@
+.form-main button {
+  font-size: 1.25rem;
+}
+.far,
+.fab {
+  margin-left: 1.5rem;
+  color: #f40b64;
+}
+.content-para i {
+  margin-left: 0.5rem;
+  color: #f40b64;
+  font-size: 2rem;
+}
+.form-control {
+  margin: 0.5rem 0;
+}
+
+.form-control label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #f40b64;
+  font-size: 2.75rem;
+}
+
+.form-control input {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  font: inherit;
+  line-height: 1.5rem;
+  padding: 0 0.25rem;
+}
+
+.form-control input:focus {
+  outline: none;
+  background: white;
+  border-color: #f40b64;
+}
+.form-control.invalid input {
+  border-color: red;
+  background: #ffd7d7;
+}
+
+.form-control.invalid label {
+  color: red;
+}
